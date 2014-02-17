@@ -8,3 +8,5 @@ Control Panel->Administrative Tools->Services and run ServerXML service. After t
 use client to connect and work with server.
 
 To delete service run unregister.cmd
+
+Pairs.xml is stored somewhere in Windows folder (C:\Windows\SysWOW64 for Windows 7 x64).
