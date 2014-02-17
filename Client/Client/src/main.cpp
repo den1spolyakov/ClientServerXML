@@ -4,7 +4,7 @@ int main()
 {
 	Client client;
 	std::string address;
-	std::cout << "Enter address: ";
+	std::cout << "Enter server address: ";
 	std::getline(std::cin, address);
 	client.connectToServer(address, defaultPort);
 	if (client.isConnected())
